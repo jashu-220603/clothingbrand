@@ -1,0 +1,106 @@
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+body {
+    background-color: #002366; /* 2. Royal Blue Background */
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* 1. Dynamic Weaver Logo */
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.weaver-loom {
+    font-size: 2.5rem;
+    align-items: left;
+}
+
+.dynamic-text {
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37; /* Gold */ 
+}
+/* Navbar */
+.top-header {
+    background: #001a4d;
+    padding: 15px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #D4AF37;
+}
+.navbar { display: flex; justify-content: space-between; align-items: center; }
+.nav-links { list-style: none; display: flex; }
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-links a:hover { color: #D4AF37; }
+
+/* Hero */
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,35,102,0.7), rgba(0,35,102,0.7)), url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 10px; }
+
+/* Product Cards */
+.collections { padding: 60px 8%; background: #002366; }
+
+.section-title { text-align: center; font-size: 2.5rem; margin-bottom: 60px; font-family: 'Playfair Display', serif; color: #D4AF37; }
+
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+
+.product-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #D4AF37;
+    border-radius: 12px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.product-card:hover { transform: translateY(-10px); background: rgba(255,255,255,0.1); }
+
+.product-img { height: 300px; background-size: cover; background-position: center; border-radius: 8px; margin-bottom: 15px; background-color: #333; }
+
+.price { color: #D4AF37; font-weight: bold; margin: 10px 0; }
+
+.gold-btn {
+
+    display: inline-block;
+    background: #D4AF37;
+    color: #002366;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.view-link { color: #fff; font-weight: 600; text-decoration: underline; }
+
+/* About & Contact */
+.about-section { padding: 80px 10%; background: #001a4d; text-align: center; }
+
+.contact-section { padding: 80px 10%; background: #002366; }
+
+.contact-flex { display: flex; flex-wrap: wrap; gap: 50px; margin-top: 30px; }
+
+.contact-details, .contact-form { flex: 1; min-width: 300px; }
+
+.contact-form input, .contact-form textarea {
+    width: 100%; padding: 12px; margin-bottom: 15px; background: transparent; border: 1px solid #D4AF37; color: #fff; border-radius: 5px;
+}
+
+footer { text-align: center; padding: 40px; border-top: 1px solid #D4AF37; }
