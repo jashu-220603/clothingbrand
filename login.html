@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Nizam Border | Mangalagiri Trends</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #002366;"> 
+    <header class="top-header">
+        <nav class="navbar">
+            <div class="logo-area">
+                <div class="weaver_loom"><img src="logo.png" alt="logo" width="100px" height="50px"></div>
+                <div class="dynamic-text">
+<span style="font-size: 1.8rem;">MANGALAGIRI</span> <small>TRENDS</small>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+<div class="auth-overlay" id="authPopup">
+    <div class="auth-box">
+        <span class="auth-close" onclick="closeAuth()">×</span>
+        <div id="loginForm">
+            <h2>Welcome Back</h2>
+            <p>Login to continue shopping</p>
+
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+
+            <button class="gold-btn auth-btn">Login</button>
+
+            <p class="switch-text">
+                New user? <a onclick="showSignup()">Create Account</a>
+            </p>
+        </div>
+        <div id="signupForm" style="display:none;">
+            <h2>Create Account</h2>
+            <p>Join Mangalagiri Trends</p>
+
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+
+            <button class="gold-btn auth-btn" onclick="showmessage()">Sign Up</button>
+
+            <p class="switch-text">
+                Already have an account? <a onclick="alert('Submitted successfully')">Login</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+    showmessage = () => {
+        alert('Submitted successfully');
+    }
+</script>
+    <footer style="text-align: center; padding: 30px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+        <p>Handcrafted Heritage | Mangalagiri Trends @since 2001</p>
+    </footer>
+
+</body>
+</html>

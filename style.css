@@ -39,6 +39,20 @@ body {
     text-transform: uppercase;
     transition: 0.3s;
 }
+.login {
+
+    display: inline-block;
+    background: #D4AF37;
+    color: #002366;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.login:hover {
+    background: #fff;
+    color: #002366;
+}
 
 .nav-links a:hover { color: #D4AF37; }
 
@@ -69,6 +83,7 @@ body {
     border-radius: 12px;
     padding: 15px;
     transition: 0.3s;
+    
 }
 
 .product-card:hover { transform: translateY(-10px); background: rgba(255,255,255,0.1); }
@@ -88,12 +103,13 @@ body {
     border-radius: 5px;
 }
 
+
 .view-link { color: #fff; font-weight: 600; text-decoration: underline; }
 
 /* About & Contact */
 .about-section { padding: 80px 10%; background: #001a4d; text-align: center; }
 
-.contact-section { padding: 80px 10%; background: #002366; }
+.contact-section { padding: 80px 10%; background: #002366;}
 
 .contact-flex { display: flex; flex-wrap: wrap; gap: 50px; margin-top: 30px; }
 
@@ -102,5 +118,29 @@ body {
 .contact-form input, .contact-form textarea {
     width: 100%; padding: 12px; margin-bottom: 15px; background: transparent; border: 1px solid #D4AF37; color: #fff; border-radius: 5px;
 }
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table th {
+    background: #D4AF37;
+    color: #002366; ;
+    width: 30%;
+}
+
 
 footer { text-align: center; padding: 40px; border-top: 1px solid #D4AF37; }
+.top-header.scrolled {
+    background-color: #750404;
+}
+
