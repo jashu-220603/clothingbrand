@@ -17,10 +17,10 @@
                 </div>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#collections">Collections</a></li>
-                <li><a href="index.html#about">Our Story</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#collections">Collections</a></li>
+                <li><a href="index.php#about">Our Story</a></li>
+                <li><a href="index.php#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -63,6 +63,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- Inclusion of the Review Section -->
+        <?php 
+            $product_id = 'saree1'; 
+            include 'reviews.php'; 
+        ?>
+
     </main>
 
     <footer style="text-align: center; padding: 30px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">

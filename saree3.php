@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checks Shirt | Mangalagiri Trends</title>
+    <title>Classic Nizam Border | Mangalagiri Trends</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,10 +17,10 @@
                 </div>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#collections">Collections</a></li>
-                <li><a href="index.html#about">Our Story</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#collections">Collections</a></li>
+                <li><a href="index.php#about">Our Story</a></li>
+                <li><a href="index.php#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,24 +29,24 @@
         <div style="display: flex; flex-wrap: wrap; gap: 40px; background: rgba(255,255,255,0.05); padding: 30px; border: 1px solid #D4AF37; border-radius: 15px;">
             
             <div style="flex: 1; min-width: 300px;">
-                <img src="shirt1.webp" alt="saree" style="width: 100%; border-radius: 10px;">
+                <img src="saree3.jpeg" alt="saree" style="width: 100%; border-radius: 10px;">
             
 
             <div style="flex: 1; min-width: 300px; color: #fff;">
-                <h1 style="font-family: 'Playfair Display', serif; color: #D4AF37; font-size: 2.8rem; margin-bottom: 10px;">Mangalagiri Pure Cotton Checks Shirt</h1>
-                <p style="font-size: 1.8rem; font-weight: 600; margin-bottom: 20px;">₹499</p>
+                <h1 style="font-family: 'Playfair Display', serif; color: #D4AF37; font-size: 2.8rem; margin-bottom: 10px;">Classic Nizam Border Handloom Saree</h1>
+                <p style="font-size: 1.8rem; font-weight: 600; margin-bottom: 20px;">₹1,500</p>
                 
                 <div style="border-top: 1px solid rgba(212, 175, 55, 0.3); padding-top: 20px;">
                     <h3 style="color: #D4AF37; margin-bottom: 10px;">Product Highlights</h3>
                     <p style="line-height: 1.8; color: #e0e0e0; margin-bottom: 20px;">
-                        This authentic Mangalagiri handloom cotton shirt is woven with high-quality 80s count cotton. It features the world-famous <strong>Mangalagiri Cotton</strong> with checks format, a design that has remained a symbol of elegance for centuries in Andhra Pradesh.
+                        This authentic Mangalagiri handloom saree is woven with high-quality 80s count cotton. It features the world-famous <strong>Black color with silver elephants</strong> with pure silver zari peacock design, a design that has remained a symbol of elegance for centuries in Andhra Pradesh.
                     </p>
 
                     <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 12px;"><strong>🧵 Fabric:</strong> Pure Mangalagiri Cotton </li>
-                        <li style="margin-bottom: 12px;"><strong>✨ Work:</strong> Mangalagiri Cotton Fabric designed</li>
-                        <li style="margin-bottom: 12px;"><strong>📏 Length:</strong> 6 Meters</li>
-                        <li style="margin-bottom: 12px;"><strong>🎨 Color:</strong> Traditional checks with biscuit color </li>
+                        <li style="margin-bottom: 12px;"><strong>🧵 Fabric:</strong> Pure Handloom Cotton kalamkari designed</li>
+                        <li style="margin-bottom: 12px;"><strong>✨ Work:</strong> Zari silver border with peacocks</li>
+                        <li style="margin-bottom: 12px;"><strong>📏 Length:</strong> 6.3 Meters with Blouse</li>
+                        <li style="margin-bottom: 12px;"><strong>🎨 Color:</strong> Traditional Black color with silver elephants slight kalamkari design </li>
                     </ul>
                 </div>
             </div>
@@ -63,6 +63,11 @@
                 </div>
             </div>
         </div>
+        <!-- Inclusion of the Review Section -->
+        <?php 
+            $product_id = 'saree3'; 
+            include 'reviews.php'; 
+        ?>
     </main>
 
     <footer style="text-align: center; padding: 30px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
